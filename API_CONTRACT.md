@@ -13,11 +13,12 @@ This document is the single source of truth for communication between the fronte
 ```json
 [
   {
-    "id": "doc_001",
-    "name": "Dr. Priya Sharma",
-    "specialty": "General Physician",
-    "location": "Arogya Clinic, Sector 5",
-    "phone": "9876543210"
+     "id": 1,
+        "name": "Dr. Vikram Kumar",
+        "specialty": "General Physician",
+        "clinicName": "Arogya Clinic",
+        "address": "123 Village Road, Purulia, WB"
+
   }
 ]
 ---
@@ -32,8 +33,6 @@ This document is the single source of truth for communication between the fronte
     "id": "phc_101",
     "name": "Patiala Primary Health Center",
     "address": "123 Health St, Patiala, Punjab",
-    "timings": "9 AM - 5 PM",
-    "services": ["General Checkup", "Vaccinations", "Maternal Care"]
   }
 ]
 ### **Endpoint: `/explain`**
