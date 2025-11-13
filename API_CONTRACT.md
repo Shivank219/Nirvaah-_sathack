@@ -1,49 +1,54 @@
-# API Contract for Nirvaah
+# API Contract for Nirvaah (Version 2.1)
 
-This document is the single source of truth for communication between the frontend and backend.
+This document is the single source of truth for all data and communication between the frontend and backend.
 
 **Base URL:** TBD (To be deployed on Render)
 
 ---
 
-### **Endpoint: `/doctors`**
+### **Endpoint: `/allData`**
 **Method:** GET
-**Description:** Returns a list of available doctors.
-**Response Body (JSON Array):**
-```json
-[
-  {
-     "id": 1,
-        "name": "Dr. Vikram Kumar",
-        "specialty": "General Physician",
-        "clinicName": "Arogya Clinic",
-        "address": "123 Village Road, Purulia, WB"
+**Description:** Returns a single JSON object containing all necessary application data: doctors, PHCs, and XAI keywords. This allows the app to download all data in one go for offline use.
 
-  }
-]
----
-
-### **Endpoint: `/phcs`**
-**Method:** GET
-**Description:** Returns a list of Primary Health Centers.
-**Response Body (JSON Array):**
-```json
-[
-  {
-    "id": "phc_101",
-    "name": "Patiala Primary Health Center",
-    "address": "123 Health St, Patiala, Punjab",
-  }
-]
-### **Endpoint: `/explain`**
-**Method:** POST
-**Description:** Takes user input and a diagnosis, and returns an explanation.
-**Request Body (JSON):**
+**Response Body (Single JSON Object):**
 ```json
 {
-  "inputText": "I have a high fever and a sore throat",
-  "diagnosis": "Common Cold"
-}
-{
-  "explanation": "The diagnosis was influenced by the keywords: 'fever', 'sore throat'."
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Priya Sharma",
+      "specialty": "General Physician",
+      "clinicName": "Sharma Health Clinic",
+      "address": "123 Village Road, Rampur, Uttar Pradesh"
+    }
+  ],
+  "phcs": [
+    {
+      "id": 101,
+      "name": "Rampur Community Health Center (CHC)",
+      "address": "Government Hospital Complex, Rampur, Uttar Pradesh"
+    }
+  ],
+  "xai_keywords": {
+    "Common Cold": [
+      "fever",
+      "cough",
+      "sore throat",
+      "runny nose",
+      "sneeze"
+    ],
+    "Gastritis": [
+      "stomach",
+      "burning",
+      "nausea",
+      "vomit",
+      "acidic"
+    ],
+    "Skin Allergy": [
+      "rash",
+      "itch",
+      "redness",
+      "hives"
+    ]
+  }
 }
