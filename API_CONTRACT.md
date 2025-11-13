@@ -36,10 +36,14 @@ This document is the single source of truth for communication between the fronte
     "services": ["General Checkup", "Vaccinations", "Maternal Care"]
   }
 ]
+Method: POST
+Description: Takes user input and a diagnosis, and returns an explanation.
+Request Body (JSON):
 {
   "inputText": "I have a high fever and a sore throat",
   "diagnosis": "Common Cold"
 }
+Response Body (JSON):
 {
   "explanation": "The diagnosis was influenced by the keywords: 'fever', 'sore throat'."
 }
