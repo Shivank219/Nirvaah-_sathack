@@ -1,0 +1,203 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Vikram Kumar",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Purulia, WB"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Meera Mishra",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Anantapur, AP"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Vikram Gupta",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Purulia, WB"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Priya Mishra",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Ratnagiri, MH"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Sunita Kumar",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Sitapur, UP"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Rajesh Reddy",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Ratnagiri, MH"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Rajesh Sharma",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Chamoli, UK"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Anjali Singh",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Sitapur, UP"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Sunita Kumar",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Chamoli, UK"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Rajesh Reddy",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Anantapur, AP"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Sunita Patel",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Ratnagiri, MH"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Meera Singh",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Chamoli, UK"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Anjali Patel",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Nagaon, AS"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Priya Reddy",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Anantapur, AP"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Sunita Kumar",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Purulia, WB"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Sanjay Verma",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Ratnagiri, MH"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Priya Mishra",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Purulia, WB"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Priya Mishra",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Purulia, WB"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Meera Verma",
+      "specialty": "General Physician",
+      "clinicName": "Sanjeevani Clinic",
+      "address": "123 Village Road, Sitapur, UP"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Sunita Reddy",
+      "specialty": "General Physician",
+      "clinicName": "Arogya Clinic",
+      "address": "123 Village Road, Nagaon, AS"
+    }
+  ],
+  "phcs": [
+    {
+      "id": 101,
+      "name": "Sitapur PHC",
+      "address": "Govt. Health Center, Sitapur, UP"
+    },
+    {
+      "id": 102,
+      "name": "Ratnagiri PHC",
+      "address": "Govt. Health Center, Ratnagiri, MH"
+    },
+    {
+      "id": 103,
+      "name": "Anantapur PHC",
+      "address": "Govt. Health Center, Anantapur, AP"
+    },
+    {
+      "id": 104,
+      "name": "Nagaon PHC",
+      "address": "Govt. Health Center, Nagaon, AS"
+    },
+    {
+      "id": 105,
+      "name": "Purulia PHC",
+      "address": "Govt. Health Center, Purulia, WB"
+    },
+    {
+      "id": 106,
+      "name": "Chamoli PHC",
+      "address": "Govt. Health Center, Chamoli, UK"
+    }
+  ],
+  "first_aid": {
+    "Common Cold": [
+      "Rest and stay hydrated.",
+      "Use a saline nasal spray for congestion.",
+      "Sip warm liquids like soup or tea with honey."
+    ],
+    "Eczema": [
+      "Apply a cold, wet compress to the area.",
+      "Moisturize your skin at least twice a day.",
+      "Avoid scratching. Try patting the area instead."
+    ],
+    "Gastritis": [
+      "Avoid spicy, acidic, and fried foods.",
+      "Eat smaller, more frequent meals.",
+      "Consider over-the-counter antacids."
+    ],
+    "Minor Burn": [
+      "Hold under cool running water for 10-15 minutes.",
+      "Do not apply ice or butter.",
+      "Cover loosely with a sterile bandage."
+    ],
+    "Dehydration": [
+      "Sip small amounts of water or an oral rehydration solution (ORS).",
+      "Avoid sugary drinks and caffeine.",
+      "Seek medical attention if symptoms are severe."
+    ]
+  }
+}
