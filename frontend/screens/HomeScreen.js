@@ -36,7 +36,7 @@ const HomeScreen = ({ navigation }) => {
   
   useEffect(() => {
     let subscription;
-    const SHAKE_THRESHOLD = 1.7;
+    const SHAKE_THRESHOLD = 3.0;
     Accelerometer.isAvailableAsync().then(result => {
       if (result) {
         subscription = Accelerometer.addListener(data => {
